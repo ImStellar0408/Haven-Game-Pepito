@@ -509,7 +509,7 @@ metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1952971173]
 sprite_frames = SubResource("SpriteFrames_dty56")
-animation = &"walk_right"
+animation = &"idle_left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1983604738]
 position = Vector2(1, -1)
