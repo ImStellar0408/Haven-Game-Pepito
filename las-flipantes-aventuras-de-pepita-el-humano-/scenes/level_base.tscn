@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://do1dla8l6iyke" path="res://scenes/door.tscn" id="4_6k8qy"]
 [ext_resource type="PackedScene" uid="uid://bwcxwk5mbneup" path="res://scenes/Zombie.tscn" id="5_evabm"]
 [ext_resource type="PackedScene" uid="uid://dc2eh03p1oalb" path="res://scenes/Player.tscn" id="6_qurbw"]
+[ext_resource type="PackedScene" uid="uid://e87l0ev7sxuy" path="res://UI/mapa.tscn" id="7_8n3nq"]
+[ext_resource type="PackedScene" uid="uid://ijyo0h543xpd" path="res://UI/Atril.tscn" id="8_2v7b3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctdcu"]
 texture = ExtResource("1_krm4r")
@@ -427,13 +429,25 @@ tile_map_data = PackedByteArray("AAAAAAAAAQAGAAcAAAABAAAAAQAGAAcAAAACAAAAAQAGAAc
 tile_set = SubResource("TileSet_dty56")
 
 [node name="Chest" parent="." unique_id=996946217 instance=ExtResource("3_2v7b3")]
-position = Vector2(498, 207)
+position = Vector2(830, 604)
 
 [node name="Door" parent="." unique_id=1773786728 instance=ExtResource("4_6k8qy")]
 position = Vector2(510, 1245)
 
 [node name="CharacterBody2D2" parent="." unique_id=1659377620 instance=ExtResource("5_evabm")]
-position = Vector2(807, 292)
+position = Vector2(737, 1258)
 
 [node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
 position = Vector2(628, 430)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1628521965]
+
+[node name="Mapa" parent="CanvasLayer" unique_id=1840833179 instance=ExtResource("7_8n3nq")]
+offset_left = -60.0
+offset_top = 4.0
+offset_right = -60.0
+offset_bottom = 4.0
+
+[node name="Area2D" parent="." unique_id=1417704090 instance=ExtResource("8_2v7b3")]
+position = Vector2(312, 215)
+atril_num = 5
