@@ -8,6 +8,7 @@ func _on_body_entered(body: Node) -> void:
 		return
 	if Global.key_map == 0:
 		print("Necesitas una llave...")
+		DialogueManager.show_dialogue_balloon(preload("res://Dialogos/KeyNeed.dialogue"), "start")
 	elif Global.key_map == Global.correct_map:
 		print("¡GANASTE! La llave era la correcta")
 	else:
