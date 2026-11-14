@@ -323,7 +323,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0rnld")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"die",
 "speed": 7.0
 }, {
@@ -561,7 +561,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dty56"]
-radius = 3.6666667
+radius = 4.3333335
 height = 18.666668
 
 [sub_resource type="Animation" id="Animation_70d11"]
@@ -601,7 +601,7 @@ _data = {
 &"pepito camipito": SubResource("Animation_cw2d6")
 }
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1188625172 groups=["player"]]
+[node name="Player" type="CharacterBody2D" unique_id=1188625172 groups=["player"]]
 rotation = -0.08726646
 scale = Vector2(3, 3)
 script = ExtResource("1_cxr5p")
@@ -610,7 +610,6 @@ metadata/_edit_group_ = true
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1952971173]
 sprite_frames = SubResource("SpriteFrames_dty56")
 animation = &"die"
-frame_progress = 0.52799565
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1983604738]
 position = Vector2(0.3333333, -1.3333334)

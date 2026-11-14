@@ -51,4 +51,7 @@ func take_damege(amount: int) -> void:
 
 
 func die() -> void:
+	set_physics_process(false)
 	animated_sprite_2d.play("die")
+	await $AnimatedSprite2D.animation_finished
+	Global.bounce_back()

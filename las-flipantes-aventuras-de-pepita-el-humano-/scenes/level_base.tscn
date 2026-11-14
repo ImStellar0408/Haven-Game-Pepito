@@ -432,8 +432,8 @@ position = Vector2(498, 207)
 [node name="Door" parent="." unique_id=1773786728 instance=ExtResource("4_6k8qy")]
 position = Vector2(510, 1245)
 
-[node name="CharacterBody2D2" parent="." unique_id=1659377620 instance=ExtResource("5_evabm")]
-position = Vector2(807, 292)
-
 [node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
 position = Vector2(628, 430)
+
+[node name="zombi" parent="." unique_id=1659377620 instance=ExtResource("5_evabm")]
+position = Vector2(773, 399)
