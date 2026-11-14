@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bwcxwk5mbneup"]
+
+[ext_resource type="Texture2D" uid="uid://dlfuxvjvky1ld" path="res://Sprites/zombie/1Zombie-Idle.png" id="1_mauhj"]
+[ext_resource type="Script" uid="uid://gbbw61xi2ypp" path="res://zombi.gd" id="2_g6hu2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dty56"]
+size = Vector2(10, 15)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dqd6t"]
+radius = 12.671053
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1659377620]
+scale = Vector2(3, 3)
+script = ExtResource("2_g6hu2")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1139163116]
+texture = ExtResource("1_mauhj")
+hframes = 8
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1256628762]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_dty56")
+
+[node name="HitZone" type="Area2D" parent="." unique_id=1389852996]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZone" unique_id=1115047275]
+shape = SubResource("CircleShape2D_dqd6t")
