@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bwcxwk5mbneup" path="res://scenes/Zombie.tscn" id="5_evabm"]
 [ext_resource type="PackedScene" uid="uid://dc2eh03p1oalb" path="res://scenes/Player.tscn" id="6_qurbw"]
 [ext_resource type="PackedScene" uid="uid://ijyo0h543xpd" path="res://UI/Atril.tscn" id="7_8n3nq"]
+[ext_resource type="PackedScene" uid="uid://e87l0ev7sxuy" path="res://UI/mapa.tscn" id="8_2v7b3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctdcu"]
 texture = ExtResource("1_krm4r")
@@ -458,3 +459,7 @@ atril_num = 4
 [node name="Atril5" parent="." unique_id=1970176945 instance=ExtResource("7_8n3nq")]
 position = Vector2(722, 210)
 atril_num = 5
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=140524886]
+
+[node name="Mapa" parent="CanvasLayer" unique_id=1840833179 instance=ExtResource("8_2v7b3")]
