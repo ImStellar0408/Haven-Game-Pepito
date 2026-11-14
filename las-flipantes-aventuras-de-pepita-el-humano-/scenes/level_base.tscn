@@ -434,9 +434,6 @@ position = Vector2(2093, 1334)
 [node name="Door" parent="." unique_id=1773786728 instance=ExtResource("4_6k8qy")]
 position = Vector2(510, 1245)
 
-[node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
-position = Vector2(628, 430)
-
 [node name="zombi" parent="." unique_id=1659377620 instance=ExtResource("5_evabm")]
 position = Vector2(2559, 1274)
 
@@ -459,6 +456,9 @@ atril_num = 4
 [node name="Atril5" parent="." unique_id=1970176945 instance=ExtResource("7_8n3nq")]
 position = Vector2(722, 210)
 atril_num = 5
+
+[node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
+position = Vector2(628, 430)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=140524886]
 

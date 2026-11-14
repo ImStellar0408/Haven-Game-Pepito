@@ -7,6 +7,7 @@ var player: Node2D
 
 func _ready() -> void:
 	$AnimationPlayer.play("zombi_camizombi")
+	var rand = randi_range(0,6)
 	player = get_tree().get_first_node_in_group("player")
 	hit_zone.body_entered.connect(_on_hit_zone_body_entered)
 
