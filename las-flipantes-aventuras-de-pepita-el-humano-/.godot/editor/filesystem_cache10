@@ -1,25 +1,25 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1794669179
+::res://::1794670455
 chest.gd::GDScript::698100168319424945::1794667813::0::1::::<>Area2D<><>0<>0<><>::
 door.gd::GDScript::5700853563641542072::1794667813::0::1::::<>Area2D<><>0<>0<><>::
 Global.gd::GDScript::2258878185181732699::1794667813::0::1::::<>Node<><>0<>0<><>::
 icon.svg::CompressedTexture2D::1806993906925406761::1794667813::1794667813::1::::<><><>0<>0<>958b2a02fef90a149983f3f699fe1151<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 New Project(1).png::CompressedTexture2D::3949892996258208320::1794667813::1794667813::1::::<><><>0<>0<>a02ac4bc9ff68066ff220ae282f2bec0<>res://.godot/imported/New Project(1).png-3120a949fe5ba63bbff75a24fae768bd.ctex::
-player.gd::GDScript::3863599332719889856::1794669179::0::1::::<>CharacterBody2D<><>0<>0<><>::
-zombi.gd::GDScript::423299113486492453::1794667813::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scenes/::1794669179
+player.gd::GDScript::3863599332719889856::1794669241::0::1::::<>CharacterBody2D<><>0<>0<><>::
+zombi.gd::GDScript::423299113486492453::1794670455::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/::1794670457
 chest.tscn::PackedScene::1196183133575926935::1794667813::0::1::::<><><>0<>0<><>::uid://j7fuwuekkayr::::res://chest.gd<>uid://bhrytv5rmylar::::res://Sprites/chest/Chests.png
 door.tscn::PackedScene::8195781529848668296::1794667813::0::1::::<><><>0<>0<><>::uid://cnhshwoyr6qdk::::res://door.gd
-level_base.tscn::PackedScene::7067389215716566806::1794669172::0::1::::<><><>0<>0<><>::uid://csdgi1vuip2do::::res://Sprites/Tileset/Set 1.png<>uid://8r1fqp4m1xy::::res://Sprites/Dungeon_Tileset.png<>uid://rbo7xowf12f8::::res://scenes/chest.tscn<>uid://do1dla8l6iyke::::res://scenes/door.tscn<>uid://bwcxwk5mbneup::::res://scenes/Zombie.tscn<>uid://dc2eh03p1oalb::::res://scenes/Player.tscn
+level_base.tscn::PackedScene::7067389215716566806::1794670457::0::1::::<><><>0<>0<><>::uid://csdgi1vuip2do::::res://Sprites/Tileset/Set 1.png<>uid://8r1fqp4m1xy::::res://Sprites/Dungeon_Tileset.png<>uid://rbo7xowf12f8::::res://scenes/chest.tscn<>uid://do1dla8l6iyke::::res://scenes/door.tscn<>uid://bwcxwk5mbneup::::res://scenes/Zombie.tscn<>uid://dc2eh03p1oalb::::res://scenes/Player.tscn
 Main.tscn::PackedScene::6585480977545972402::1794667813::0::1::::<><><>0<>0<><>::uid://dc2eh03p1oalb::::res://scenes/Player.tscn
-Player.tscn::PackedScene::7355634663298485991::1794669179::0::1::::<><><>0<>0<><>::uid://bvbs6frllhjem::::res://player.gd<>uid://1x4mqwdibc1u::::res://Sprites/Player/idle_down.png<>uid://txofnj2xb48n::::res://Sprites/Player/idle.png<>uid://dw38nvsld1idn::::res://Sprites/Player/idle_up.png<>uid://cem4q4v66gfh7::::res://Sprites/Player/walk.png<>uid://bwjmfpuyqyq3i::::res://New Project(1).png
-Zombie.tscn::PackedScene::3936140349662181055::1794667813::0::1::::<><><>0<>0<><>::uid://dlfuxvjvky1ld::::res://Sprites/zombie/1Zombie-Idle.png<>uid://gbbw61xi2ypp::::res://zombi.gd
+Player.tscn::PackedScene::7355634663298485991::1794670455::0::1::::<><><>0<>0<><>::uid://bvbs6frllhjem::::res://player.gd<>uid://1x4mqwdibc1u::::res://Sprites/Player/idle_down.png<>uid://txofnj2xb48n::::res://Sprites/Player/idle.png<>uid://dw38nvsld1idn::::res://Sprites/Player/idle_up.png<>uid://cem4q4v66gfh7::::res://Sprites/Player/walk.png<>uid://bwjmfpuyqyq3i::::res://New Project(1).png
+Zombie.tscn::PackedScene::3936140349662181055::1794670455::0::1::::<><><>0<>0<><>::uid://dlfuxvjvky1ld::::res://Sprites/zombie/1Zombie-Idle.png<>uid://gbbw61xi2ypp::::res://zombi.gd
 ::res://Sprites/::1794667813
 Dungeon_Tileset.png::CompressedTexture2D::69203373456938782::1794667813::1794667813::1::::<><><>0<>0<>6736a686f976f5f30c44a3d092c88285<>res://.godot/imported/Dungeon_Tileset.png-c2ced5d874b6a80557babe8545ba7301.ctex::
 New Project.png::CompressedTexture2D::1807692607634893752::1794667813::1794667813::1::::<><><>0<>0<>4027b91fc5060f5ac365822899524568<>res://.godot/imported/New Project.png-feee31184910daadfae1e5f5e337a588.ctex::
 ::res://Sprites/chest/::1794667813
 Chests.png::CompressedTexture2D::2914329299012811869::1794667813::1794667813::1::::<><><>0<>0<>e4ec11bf0a5325dbced5ca82d8c8a288<>res://.godot/imported/Chests.png-e321152ee655a9f74cea94d32e935ede.ctex::
-::res://Sprites/Player/::1794669172
+::res://Sprites/Player/::1794669182
 death_normal.png::CompressedTexture2D::7815615088204201518::1794669172::1794669182::1::::<><><>0<>0<>6a8fa3be5847ea8b1f631ecbae745d46<>res://.godot/imported/death_normal.png-730c2c8241b78356490ed6d97909975c.ctex::
 idle.png::CompressedTexture2D::1381928382298602875::1794667813::1794667813::1::::<><><>0<>0<>5c4ea88026329934628c34df948257a5<>res://.godot/imported/idle.png-7682c23b2ce6c6676ca19d4df48f5d40.ctex::
 idle_down.png::CompressedTexture2D::1874173719755641976::1794667813::1794667813::1::::<><><>0<>0<>84fd73ba163563596b210065d6213b7a<>res://.godot/imported/idle_down.png-6f3f4e1e6ae91e6d930991f9be2a1591.ctex::
@@ -39,5 +39,6 @@ Torch Yellow R.png::CompressedTexture2D::8770017623293043180::1794667813::179466
 Torch Yellow.png::CompressedTexture2D::433939743833199493::1794667813::1794667813::1::::<><><>0<>0<>9dd22632f33f3807d9adb9f68541cf06<>res://.godot/imported/Torch Yellow.png-a460782006c9f46da76f8581706adac4.ctex::
 Vase Shine Anim.png::CompressedTexture2D::5842897168949538546::1794667813::1794667813::1::::<><><>0<>0<>082f18b190d68e43cebe159a65f57f4b<>res://.godot/imported/Vase Shine Anim.png-dc53605338de3c95a17b1cdc0e76ce77.ctex::
 Water.png::CompressedTexture2D::1878671851633592124::1794667813::1794667813::1::::<><><>0<>0<>b6768adf3b2f422dfa5e7e8a7fdaeb36<>res://.godot/imported/Water.png-d0c87273345a7832ba1f0c49bb33181d.ctex::
-::res://Sprites/zombie/::1794667813
+::res://Sprites/zombie/::1794670457
 1Zombie-Idle.png::CompressedTexture2D::7942917750845173921::1794667813::1794667813::1::::<><><>0<>0<>19abed6cc210d1a72cfff5868245b87b<>res://.godot/imported/1Zombie-Idle.png-1ff58208435db26f5ed2e1681321e778.ctex::
+1Zombie-Run.png::CompressedTexture2D::7762447543609015391::1794670457::1794670465::1::::<><><>0<>0<>8c376513087aa93995695d535950cdfb<>res://.godot/imported/1Zombie-Run.png-b165bea344fe7b44c33bd6f100311d26.ctex::
