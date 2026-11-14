@@ -6,6 +6,8 @@ var last_direction: Vector2 = Vector2.RIGHT
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 var last_dir := "down"
 
+
+
 func _physics_process(_delta: float) -> void:
 	process_movement()
 	move_and_slide()
