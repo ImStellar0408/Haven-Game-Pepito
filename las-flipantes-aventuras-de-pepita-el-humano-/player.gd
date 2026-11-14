@@ -2,7 +2,8 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 var last_direction: Vector2 = Vector2.RIGHT
-
+var max_health: int = 100
+var health: int = 100
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 var last_dir := "down"
 
@@ -43,3 +44,11 @@ func play_animation(prefix: String, dir: Vector2)-> void:
 		animated_sprite_2d.play(prefix +"_down")
 	elif dir.x < 0:
 		animated_sprite_2d.play(prefix +"_left")
+		
+func take_damege(amount: int) -> void:
+	health -= amount
+	print(health)
+
+
+func die() -> void:
+	animated_sprite_2d.play("die")

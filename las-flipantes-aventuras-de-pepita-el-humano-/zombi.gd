@@ -18,3 +18,10 @@ func _physics_process(_delta: float) -> void:
 func _on_hit_zone_body_entered(body: Node) -> void:
 	if body.is_in_group("player"):
 		Global.bounce_back()
+
+
+
+
+func _on_sight_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if body.name == "Player":
+		print("te toque")
