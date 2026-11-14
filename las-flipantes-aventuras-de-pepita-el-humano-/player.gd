@@ -10,10 +10,12 @@ func _physics_process(_delta: float) -> void:
 	process_movement()
 	move_and_slide()
 
-
+func _ready() -> void:
+	$AnimationPlayer.play("pepito camipito")
 
 func process_movement() -> void:
-		
+		# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_vector("left", "right", "up", "down")
 	
 	if direction != Vector2.ZERO:

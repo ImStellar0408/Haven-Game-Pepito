@@ -6,6 +6,7 @@ var player: Node2D
 @onready var hit_zone: Area2D = $HitZone
 
 func _ready() -> void:
+	$AnimationPlayer.play("zombi_camizombi")
 	player = get_tree().get_first_node_in_group("player")
 	hit_zone.body_entered.connect(_on_hit_zone_body_entered)
 

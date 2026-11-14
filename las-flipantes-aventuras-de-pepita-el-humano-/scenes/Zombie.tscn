@@ -34,7 +34,7 @@ tracks/0/path = NodePath("Sprite2D:rotation")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.78),
+"times": PackedFloat32Array(0, 0.43333334),
 "transitions": PackedFloat32Array(-2, -2),
 "update": 0,
 "values": [-0.08726646, 0.08726646]

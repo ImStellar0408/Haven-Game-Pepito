@@ -502,7 +502,44 @@ animations = [{
 radius = 5.3333335
 height = 23.333334
 
+[sub_resource type="Animation" id="Animation_70d11"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.08726646]
+}
+
+[sub_resource type="Animation" id="Animation_cw2d6"]
+resource_name = "pepito camipito"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.08726646]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_khinc"]
+_data = {
+&"RESET": SubResource("Animation_70d11"),
+&"pepito camipito": SubResource("Animation_cw2d6")
+}
+
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1188625172 groups=["player"]]
+rotation = -0.08726646
 scale = Vector2(3, 3)
 script = ExtResource("1_cxr5p")
 metadata/_edit_group_ = true
@@ -523,3 +560,6 @@ offset = Vector2(20, 20)
 position = Vector2(3.3333335, 22)
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("6_70d11")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1982474946]
+libraries/ = SubResource("AnimationLibrary_khinc")
