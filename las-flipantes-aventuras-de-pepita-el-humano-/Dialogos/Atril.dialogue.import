@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://b231showweato"
+path="res://.godot/imported/Atril.dialogue-46ff9eb58b368f267df9b8baf5041bf1.tres"
+
+[deps]
+
+source_file="res://Dialogos/Atril.dialogue"
+dest_files=["res://.godot/imported/Atril.dialogue-46ff9eb58b368f267df9b8baf5041bf1.tres"]
+
+[params]
+
+defaults=true

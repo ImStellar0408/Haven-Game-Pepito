@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://ccfvsq6d3a1r6"
+path="res://.godot/imported/Atril_Error.dialogue-fb0a845432831f2653f619a400c29736.tres"
+
+[deps]
+
+source_file="res://Dialogos/Atril_Error.dialogue"
+dest_files=["res://.godot/imported/Atril_Error.dialogue-fb0a845432831f2653f619a400c29736.tres"]
+
+[params]
+
+defaults=true

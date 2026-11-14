@@ -437,9 +437,6 @@ position = Vector2(510, 1245)
 [node name="CharacterBody2D2" parent="." unique_id=1659377620 instance=ExtResource("5_evabm")]
 position = Vector2(737, 1258)
 
-[node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
-position = Vector2(628, 430)
-
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1628521965]
 
 [node name="Mapa" parent="CanvasLayer" unique_id=1840833179 instance=ExtResource("7_8n3nq")]
@@ -448,6 +445,25 @@ offset_top = 4.0
 offset_right = -60.0
 offset_bottom = 4.0
 
-[node name="Area2D" parent="." unique_id=1417704090 instance=ExtResource("8_2v7b3")]
-position = Vector2(312, 215)
+[node name="Atril1" parent="." unique_id=1417704090 instance=ExtResource("8_2v7b3")]
+position = Vector2(270, 171)
+atril_num = 1
+
+[node name="Atril2" parent="." unique_id=1905707976 instance=ExtResource("8_2v7b3")]
+position = Vector2(372, 171)
+atril_num = 2
+
+[node name="Atril3" parent="." unique_id=1421831674 instance=ExtResource("8_2v7b3")]
+position = Vector2(477, 171)
+atril_num = 3
+
+[node name="Atril4" parent="." unique_id=633453215 instance=ExtResource("8_2v7b3")]
+position = Vector2(584, 171)
+atril_num = 4
+
+[node name="Atril5" parent="." unique_id=10811528 instance=ExtResource("8_2v7b3")]
+position = Vector2(691, 171)
 atril_num = 5
+
+[node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
+position = Vector2(628, 430)

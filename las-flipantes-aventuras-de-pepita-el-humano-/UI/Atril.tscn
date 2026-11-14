@@ -12,6 +12,7 @@ size = Vector2(22, 34)
 [node name="Area2D" type="Area2D" unique_id=1417704090]
 scale = Vector2(2, 2)
 script = ExtResource("1_vcw8y")
+atril_num = null
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1676309072]
 texture = ExtResource("1_jfekg")

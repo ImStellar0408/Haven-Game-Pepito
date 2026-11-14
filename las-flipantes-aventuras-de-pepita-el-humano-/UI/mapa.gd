@@ -1,6 +1,5 @@
 extends Control
 
-
 func _input(event) -> void:
 	if event.is_action("map"):
 		if Global.atril_selected == 1:
