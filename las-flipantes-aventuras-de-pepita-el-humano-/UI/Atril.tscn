@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://ijyo0h543xpd"]
+
+[ext_resource type="Texture2D" uid="uid://bo63wwv52g48i" path="res://Sprites/Atril/sin título.png" id="1_jfekg"]
+[ext_resource type="Script" uid="uid://xhbdy71ckstp" path="res://atril.gd" id="1_vcw8y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dty56"]
+size = Vector2(33, 42)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dqd6t"]
+size = Vector2(22, 34)
+
+[node name="Area2D" type="Area2D" unique_id=1417704090]
+scale = Vector2(2, 2)
+script = ExtResource("1_vcw8y")
+atril_num = null
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1676309072]
+texture = ExtResource("1_jfekg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=546510988]
+position = Vector2(-3.5, 2)
+shape = SubResource("RectangleShape2D_dty56")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=622511724]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1410668554]
+position = Vector2(-3, 2)
+shape = SubResource("RectangleShape2D_dqd6t")

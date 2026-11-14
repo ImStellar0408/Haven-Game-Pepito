@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://e87l0ev7sxuy"]
+
+[ext_resource type="Script" uid="uid://hqclqah77ol6" path="res://UI/mapa.gd" id="1_frqj1"]
+[ext_resource type="Texture2D" uid="uid://oaboqdngru4j" path="res://UI/Map1.png" id="1_yp4o3"]
+[ext_resource type="Texture2D" uid="uid://15l4mbsj1qjn" path="res://UI/Map2.png" id="3_ug3bc"]
+[ext_resource type="Texture2D" uid="uid://c3mdii1kj33o6" path="res://UI/Map3.png" id="4_tj4hk"]
+[ext_resource type="Texture2D" uid="uid://bf3jskodwi5pi" path="res://UI/Map4.png" id="5_amwp2"]
+[ext_resource type="Texture2D" uid="uid://b8fkl4l2pykov" path="res://UI/Map5.png" id="6_x6cwd"]
+
+[node name="Mapa" type="Control" unique_id=1840833179]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_frqj1")
+
+[node name="Mapa1" type="Sprite2D" parent="." unique_id=738877029]
+visible = false
+position = Vector2(520, 340)
+scale = Vector2(2.5125, 2.5125)
+texture = ExtResource("1_yp4o3")
+
+[node name="Mapa2" type="Sprite2D" parent="." unique_id=560780967]
+visible = false
+position = Vector2(520, 340)
+scale = Vector2(2.5125, 2.5125)
+texture = ExtResource("3_ug3bc")
+
+[node name="Mapa3" type="Sprite2D" parent="." unique_id=1049287259]
+visible = false
+position = Vector2(520, 340)
+scale = Vector2(2.5125, 2.5125)
+texture = ExtResource("4_tj4hk")
+
+[node name="Mapa4" type="Sprite2D" parent="." unique_id=1048770555]
+visible = false
+position = Vector2(520, 340)
+scale = Vector2(2.5125, 2.5125)
+texture = ExtResource("5_amwp2")
+
+[node name="Mapa5" type="Sprite2D" parent="." unique_id=1571512571]
+visible = false
+position = Vector2(520, 340)
+scale = Vector2(2.5125, 2.5125)
+texture = ExtResource("6_x6cwd")
