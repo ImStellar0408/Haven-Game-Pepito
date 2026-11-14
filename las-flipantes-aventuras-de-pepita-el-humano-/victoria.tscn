@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://4l55k7477kw2"]
+
+[ext_resource type="Script" uid="uid://cjotjwccrhw44" path="res://victoria.gd" id="1_okh8r"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=615983492]
+script = ExtResource("1_okh8r")
+
+[node name="Label" type="Label" parent="." unique_id=760757674]
+offset_left = 316.00003
+offset_top = 194.0
+offset_right = 534.0
+offset_bottom = 243.0
+scale = Vector2(1.8754663, 1.9408462)
+text = "GANASTE!!
+Ayudaste a escapar a pepito"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=332931128]
+offset_left = 436.0
+offset_top = 394.99997
+offset_right = 524.0
+offset_bottom = 425.99997
+scale = Vector2(1.8787196, 1.7658632)
+text = "Play Again"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

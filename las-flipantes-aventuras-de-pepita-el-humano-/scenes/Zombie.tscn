@@ -47,6 +47,7 @@ _data = {
 }
 
 [node name="zombi" type="CharacterBody2D" unique_id=1659377620]
+z_index = -2
 scale = Vector2(3, 3)
 script = ExtResource("2_g6hu2")
 

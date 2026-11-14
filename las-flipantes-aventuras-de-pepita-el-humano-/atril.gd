@@ -21,11 +21,11 @@ func _on_body_exited(body: Node) -> void:
 		player_near = false
 
 func _unhandled_input(event: InputEvent) -> void:
-	if player_near and not selected and event.is_action_pressed("interact") and not Global.habemus_map:
+	if player_near and not selected and event.is_action_pressed("interact"):
 		DialogueManager.show_dialogue_balloon(preload("res://Dialogos/Atril.dialogue"), "start")
 		Global.habemus_map = true
 		select_this()
-	elif player_near and selected and event.is_action_pressed("interact") and Global.habemus_map:
+	elif player_near and selected and event.is_action_pressed("interact"):
 		DialogueManager.show_dialogue_balloon(preload("res://Dialogos/Atril_Error.dialogue"), "start")
 
 func select_this() -> void:

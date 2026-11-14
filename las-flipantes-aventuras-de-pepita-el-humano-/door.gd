@@ -11,6 +11,7 @@ func _on_body_entered(body: Node) -> void:
 		DialogueManager.show_dialogue_balloon(preload("res://Dialogos/KeyNeed.dialogue"), "start")
 	elif Global.key_map == Global.correct_map:
 		print("¡GANASTE! La llave era la correcta")
+		get_tree().change_scene_to_file("res://victoria.tscn")
 	else:
 		print("Esta llave no abre esta puerta...")
 		await get_tree().create_timer(1.0).timeout

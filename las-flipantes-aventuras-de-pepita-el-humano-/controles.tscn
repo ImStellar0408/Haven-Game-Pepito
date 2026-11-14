@@ -1,29 +1,20 @@
 [gd_scene format=3 uid="uid://byicfd8wvo3h1"]
 
 [ext_resource type="Script" uid="uid://bcytxrdwlq8yy" path="res://controles.gd" id="1_8cv2j"]
+[ext_resource type="Texture2D" uid="uid://cvejxr1epgro1" path="res://controles.jpg" id="2_34qsr"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1610193753]
 script = ExtResource("1_8cv2j")
 
-[node name="Label" type="Label" parent="." unique_id=2076998946]
-offset_left = 51.0
-offset_top = 214.0
-offset_right = 1004.0
-offset_bottom = 419.0
-text = "Controles:
-
-E: Interactuar
-M: Abrir mapa
-WASD: Movimiento
-
-Objetivo: Agarrar un mapa al inicio y seguir su ruta, al final te llevara a una puerta, si elegiste bien lograras escapar del loop
-si no, estaras encerrado hasta que logres escapar."
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=451226535]
+position = Vector2(635, 357)
+texture = ExtResource("2_34qsr")
 
 [node name="Button" type="Button" parent="." unique_id=1664662955]
-offset_left = 465.0
-offset_top = 581.00006
-offset_right = 522.0
-offset_bottom = 612.00006
+offset_left = 822.0
+offset_top = 210.0
+offset_right = 917.7201
+offset_bottom = 252.40607
 scale = Vector2(2.058085, 1.7921941)
 text = "Iniciar"
 icon_alignment = 1
