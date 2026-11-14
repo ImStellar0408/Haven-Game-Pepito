@@ -26,7 +26,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		Global.habemus_map = true
 		select_this()
 	elif player_near and selected and event.is_action_pressed("interact") and Global.habemus_map:
-		DialogueManager.show_dialogue_balloon(preload("res://Dialogos/Atril_Error.dialogue"))
+		DialogueManager.show_dialogue_balloon(preload("res://Dialogos/Atril_Error.dialogue"), "start")
 
 func select_this() -> void:
 	selected = true

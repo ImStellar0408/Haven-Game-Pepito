@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://ca0iham3cksk5"
+path="res://.godot/imported/Cofre.dialogue-4630ec0047008378a25a5657f9753cf2.tres"
+
+[deps]
+
+source_file="res://Dialogos/Cofre.dialogue"
+dest_files=["res://.godot/imported/Cofre.dialogue-4630ec0047008378a25a5657f9753cf2.tres"]
+
+[params]
+
+defaults=true

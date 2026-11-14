@@ -432,7 +432,7 @@ tile_map_data = PackedByteArray("AAAAAAAAAQAGAAcAAAABAAAAAQAGAAcAAAACAAAAAQAGAAc
 tile_set = SubResource("TileSet_dty56")
 
 [node name="Chest" parent="." unique_id=996946217 instance=ExtResource("3_2v7b3")]
-position = Vector2(2093, 1334)
+position = Vector2(502.00003, 477.00003)
 
 [node name="Door" parent="." unique_id=1773786728 instance=ExtResource("4_6k8qy")]
 position = Vector2(510, 1245)
@@ -460,12 +460,12 @@ atril_num = 4
 position = Vector2(722, 210)
 atril_num = 5
 
+[node name="Spawner" parent="." unique_id=1904123670 instance=ExtResource("10_qurbw")]
+position = Vector2(-3830, 71)
+
 [node name="CharacterBody2D" parent="." unique_id=1188625172 instance=ExtResource("6_qurbw")]
 position = Vector2(628, 430)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=140524886]
 
 [node name="Mapa" parent="CanvasLayer" unique_id=1840833179 instance=ExtResource("8_2v7b3")]
-
-[node name="Spawner" parent="." unique_id=1904123670 instance=ExtResource("10_qurbw")]
-position = Vector2(377, 885)

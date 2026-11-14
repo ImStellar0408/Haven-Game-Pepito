@@ -27,5 +27,6 @@ func _unhandled_input(event: InputEvent) -> void:
 func open_chest() -> void:
 	opened = true
 	Global.key_map = map_id
+	DialogueManager.show_dialogue_balloon(preload("res://Dialogos/Cofre.dialogue"), "start")
 	print("Llave obtenida del mapa ", map_id)
 	sprite.play("opener")
