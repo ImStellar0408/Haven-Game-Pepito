@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Las flipantes aventuras de pepita el humano"
-run/main_scene="uid://c7xq4rg768kss"
+run/main_scene="uid://cphbd6c7cbp0r"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
