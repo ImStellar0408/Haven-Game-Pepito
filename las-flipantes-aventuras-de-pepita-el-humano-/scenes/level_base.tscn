@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://c7xq4rg768kss"]
 
+[ext_resource type="Script" uid="uid://dd8n5lahqxybq" path="res://spawner.gd" id="1_evabm"]
 [ext_resource type="Texture2D" uid="uid://csdgi1vuip2do" path="res://Sprites/Tileset/Set 1.png" id="1_krm4r"]
 [ext_resource type="Texture2D" uid="uid://8r1fqp4m1xy" path="res://Sprites/Dungeon_Tileset.png" id="2_8n3nq"]
 [ext_resource type="PackedScene" uid="uid://rbo7xowf12f8" path="res://scenes/chest.tscn" id="3_2v7b3"]
@@ -8,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dc2eh03p1oalb" path="res://scenes/Player.tscn" id="6_qurbw"]
 [ext_resource type="PackedScene" uid="uid://ijyo0h543xpd" path="res://UI/Atril.tscn" id="7_8n3nq"]
 [ext_resource type="PackedScene" uid="uid://e87l0ev7sxuy" path="res://UI/mapa.tscn" id="8_2v7b3"]
+[ext_resource type="PackedScene" uid="uid://co73h4iru1om" path="res://scenes/spawner.tscn" id="10_qurbw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctdcu"]
 texture = ExtResource("1_krm4r")
@@ -422,6 +424,7 @@ sources/1 = SubResource("TileSetAtlasSource_ctdcu")
 sources/2 = SubResource("TileSetAtlasSource_ucx4l")
 
 [node name="LevelRoot" type="Node2D" unique_id=1944161849]
+script = ExtResource("1_evabm")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=281499818]
 scale = Vector2(3.5, 3.5)
@@ -463,3 +466,6 @@ position = Vector2(628, 430)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=140524886]
 
 [node name="Mapa" parent="CanvasLayer" unique_id=1840833179 instance=ExtResource("8_2v7b3")]
+
+[node name="Spawner" parent="." unique_id=1904123670 instance=ExtResource("10_qurbw")]
+position = Vector2(377, 885)
