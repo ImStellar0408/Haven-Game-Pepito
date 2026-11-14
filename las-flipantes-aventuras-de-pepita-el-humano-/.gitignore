@@ -1,0 +1,24 @@
+# Godot 4+ specific
+.godot/
+.nomedia
+
+# Godot-specific files
+.import/
+export.cfg
+export_credentials.cfg
+*.tmp
+
+# Imported translations
+*.translation
+
+# Mono-specific (C#)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Export outputs
+*.exe
+*.dll
+*.pck
+*.apk
+*.aab
